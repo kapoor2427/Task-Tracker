@@ -1,9 +1,10 @@
 import "./styles.css";
+import Header from "./Components/Header.js";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Welcome!</h1>
+    <div className="container">
+      <Header title="Task Tracker" />
     </div>
   );
 }
